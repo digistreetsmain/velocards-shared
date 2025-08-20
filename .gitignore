@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-dist/
+# dist/ is committed for GitHub package usage
 *.tsbuildinfo
 
 # Environment files
@@ -26,6 +26,15 @@ yarn-error.log*
 # Testing
 coverage/
 .nyc_output/
+tests/
+*.test.ts
+*.spec.ts
+
+# Database
+migrations/
+*.sql
+database/
+seeds/
 
 # Misc
 *.map
