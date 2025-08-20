@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.KYCStatus = exports.UserStatus = void 0;
 var UserStatus;
 (function (UserStatus) {
+    UserStatus["PENDING"] = "PENDING";
     UserStatus["ACTIVE"] = "ACTIVE";
     UserStatus["SUSPENDED"] = "SUSPENDED";
     UserStatus["CLOSED"] = "CLOSED";

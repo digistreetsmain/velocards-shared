@@ -9,6 +9,7 @@ export interface User {
     updatedAt: Date;
 }
 export declare enum UserStatus {
+    PENDING = "PENDING",
     ACTIVE = "ACTIVE",
     SUSPENDED = "SUSPENDED",
     CLOSED = "CLOSED"
