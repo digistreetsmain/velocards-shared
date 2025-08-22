@@ -2,7 +2,8 @@ export declare enum AggregateType {
     USER = "USER",
     CARD = "CARD",
     TRANSACTION = "TRANSACTION",
-    BALANCE = "BALANCE"
+    BALANCE = "BALANCE",
+    CARD_TRANSACTION = "CARD_TRANSACTION"
 }
 export declare enum EventType {
     USER_CREATED = "USER_CREATED",

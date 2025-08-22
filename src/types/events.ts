@@ -3,6 +3,7 @@ export enum AggregateType {
   CARD = 'CARD',
   TRANSACTION = 'TRANSACTION',
   BALANCE = 'BALANCE',
+  CARD_TRANSACTION = 'CARD_TRANSACTION',
 }
 
 export enum EventType {

@@ -7,6 +7,7 @@ var AggregateType;
     AggregateType["CARD"] = "CARD";
     AggregateType["TRANSACTION"] = "TRANSACTION";
     AggregateType["BALANCE"] = "BALANCE";
+    AggregateType["CARD_TRANSACTION"] = "CARD_TRANSACTION";
 })(AggregateType || (exports.AggregateType = AggregateType = {}));
 var EventType;
 (function (EventType) {
