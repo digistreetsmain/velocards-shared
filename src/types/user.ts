@@ -17,8 +17,14 @@ export enum UserStatus {
 }
 
 export enum KYCStatus {
-  NOT_STARTED = 'NOT_STARTED',
-  PENDING = 'PENDING',
-  APPROVED = 'APPROVED',
-  REJECTED = 'REJECTED'
+  UNVERIFIED = 'UNVERIFIED',
+  PENDING_KYC = 'PENDING_KYC',
+  KYC_APPROVED = 'KYC_APPROVED',
+  KYC_REJECTED = 'KYC_REJECTED'
+}
+
+export enum KYCLevel {
+  BASIC = 'BASIC',
+  ENHANCED = 'ENHANCED',
+  FULL = 'FULL'
 }

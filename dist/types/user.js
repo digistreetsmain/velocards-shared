@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.KYCStatus = exports.UserStatus = void 0;
+exports.KYCLevel = exports.KYCStatus = exports.UserStatus = void 0;
 var UserStatus;
 (function (UserStatus) {
     UserStatus["PENDING"] = "PENDING";
@@ -10,8 +10,14 @@ var UserStatus;
 })(UserStatus || (exports.UserStatus = UserStatus = {}));
 var KYCStatus;
 (function (KYCStatus) {
-    KYCStatus["NOT_STARTED"] = "NOT_STARTED";
-    KYCStatus["PENDING"] = "PENDING";
-    KYCStatus["APPROVED"] = "APPROVED";
-    KYCStatus["REJECTED"] = "REJECTED";
+    KYCStatus["UNVERIFIED"] = "UNVERIFIED";
+    KYCStatus["PENDING_KYC"] = "PENDING_KYC";
+    KYCStatus["KYC_APPROVED"] = "KYC_APPROVED";
+    KYCStatus["KYC_REJECTED"] = "KYC_REJECTED";
 })(KYCStatus || (exports.KYCStatus = KYCStatus = {}));
+var KYCLevel;
+(function (KYCLevel) {
+    KYCLevel["BASIC"] = "BASIC";
+    KYCLevel["ENHANCED"] = "ENHANCED";
+    KYCLevel["FULL"] = "FULL";
+})(KYCLevel || (exports.KYCLevel = KYCLevel = {}));

@@ -15,9 +15,14 @@ export declare enum UserStatus {
     CLOSED = "CLOSED"
 }
 export declare enum KYCStatus {
-    NOT_STARTED = "NOT_STARTED",
-    PENDING = "PENDING",
-    APPROVED = "APPROVED",
-    REJECTED = "REJECTED"
+    UNVERIFIED = "UNVERIFIED",
+    PENDING_KYC = "PENDING_KYC",
+    KYC_APPROVED = "KYC_APPROVED",
+    KYC_REJECTED = "KYC_REJECTED"
+}
+export declare enum KYCLevel {
+    BASIC = "BASIC",
+    ENHANCED = "ENHANCED",
+    FULL = "FULL"
 }
 //# sourceMappingURL=user.d.ts.map
